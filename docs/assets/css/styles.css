@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(17, 88, 17);
+    color: white;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-block: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.buttons button{
+    padding-inline: .75rem;
+    padding-block: .5rem;
+    border-radius: .35rem;
+    color: white;
+    font-weight: 600;
+    transition: all .2s ease;
+}
+
+.danger:hover{
+    cursor: pointer;
+    color: rgb(150, 8, 8);
+    background-color: white;
+}
+
+.primary:hover{
+    cursor: pointer;
+    color: rgb(0, 132, 255);
+    background-color: white;
+}
+
+.danger{
+    background-color: rgb(150, 8, 8);
+    border: 1px solid rgb(150, 8, 8);
+}
+
+.primary{
+    background-color: rgb(0, 132, 255);
+    border: 1px solid rgb(0, 132, 255);
+}
+
+.player, .computer{
+    color: white;
+    padding: 1rem;
+}
+.player h1{
+    margin: 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 1rem;
+}
+
+.cards img{
+    inline-size: 7rem;
+}
